@@ -17,8 +17,8 @@ jobs:
            distribution: 'temurin' 
            java-version: '21'
 
-       - name: maven repository
-         uses: advanced-security/maven-dependency-submission-action@v3
+      #  - name: maven repository
+      #    uses: advanced-security/maven-dependency-submission-action@v3
          
        - name: download dependencies
          run: mvn validate
